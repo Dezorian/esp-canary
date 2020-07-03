@@ -17,4 +17,7 @@
 
 #define MAC "00:11:32:85:ac:29"
 
+#define MQTT_HOST "***REMOVED***"
+#define MQTT_PORT 1883
+
 #endif
