@@ -27,7 +27,7 @@ binary_sensor:
     name: ping_canary
     count: 2
     scan_interval: 60
-    host: ***REMOVED***
+    host: 192.168.X.X
     
 automation:
   - alias: network_breach

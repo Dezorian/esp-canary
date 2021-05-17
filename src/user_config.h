@@ -56,7 +56,7 @@
 
 // =========== MQTT ===========================
 #define MQTT_ENABLED false
-#define MQTT_HOST "***REMOVED***"
+#define MQTT_HOST "192.168.1.1"
 #define MQTT_TOPIC "security/canary"
 #define MQTT_PORT 1883
 #define MQTT_CLIENT_ID "ESPCanary"
