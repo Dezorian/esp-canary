@@ -7,12 +7,12 @@
 
 // WIFI endpoint name where you would connect
 #ifndef WIFI_SERVER_AP_NAME
-  #define WIFI_SERVER_AP_NAME "WFT"
+  #define WIFI_SERVER_AP_NAME "[ENTER YOUR WIFI SSID]"
 #endif
 
 // WIFI endpoint password where you would connect
 #ifndef WIFI_SERVER_AP_PASSWORD
-  #define WIFI_SERVER_AP_PASSWORD "1234567890"
+  #define WIFI_SERVER_AP_PASSWORD "[ENTER YOUR WIFI PASSWORD]"
 #endif
 
 //===========================================================================
@@ -32,11 +32,10 @@
 
 //Remember to change port in platformio.ini as well
 #define OTA_PORT 56056
-// #define OTA_PASS "H0We8Adu0SYGFUNTt25C7yuJ"
+#define OTA_PASS "[CHANGE_THIS_INTO_A_PASSWORD]"
 
 //NTP offset in seconds- currently set to UTC +2H
 #define NTP_TIME_OFFSET 7200
-
 
 //===========================================================================
 //============================= SIMULATION CONFIGURATION ====================
@@ -56,12 +55,12 @@
 
 // =========== MQTT ===========================
 #define MQTT_ENABLED false
-#define MQTT_HOST "192.168.1.1"
+#define MQTT_HOST "[ENTER YOUR CANARY IP ADDRESS]"
 #define MQTT_TOPIC "security/canary"
 #define MQTT_PORT 1883
 #define MQTT_CLIENT_ID "ESPCanary"
-#define MQTT_USER "Canary"
-#define MQTT_PASSWORD "NDCU74EJoh2N69GRhMfc"
+#define MQTT_USER "[ENTER YOUR MQTT USER]"
+#define MQTT_PASSWORD "[ENTER YOUR MQTT SERVER PASSWORD]"
 
 // =========== EMAIL ===========================
 #define EMAIL_ENABLED false
